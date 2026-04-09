@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab1HelloWorld">
         <activity
+            android:name=".GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntroduceActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
